@@ -185,6 +185,24 @@
       }
     },
     {
+      "id": "landuse_construction",
+      "type": "fill",
+      "metadata": {},
+      "source": "openmaptiles",
+      "source-layer": "landuse",
+      "filter": [
+        "all",
+        [
+          "==",
+          "class",
+          "construction"
+        ]
+      ],
+      "paint": {
+        "fill-color": "rgba(255, 238, 205, 1)"
+      }
+    },
+    {
       "id": "waterway_river",
       "type": "line",
       "metadata": {},
