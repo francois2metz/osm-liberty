@@ -167,6 +167,24 @@
       }
     },
     {
+      "id": "landuse_pitch",
+      "type": "fill",
+      "metadata": {},
+      "source": "openmaptiles",
+      "source-layer": "landuse",
+      "filter": [
+        "all",
+        [
+          "==",
+          "class",
+          "pitch"
+        ]
+      ],
+      "paint": {
+        "fill-color": "rgb(223,238,204)"
+      }
+    },
+    {
       "id": "waterway_river",
       "type": "line",
       "metadata": {},
