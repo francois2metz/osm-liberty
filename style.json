@@ -175,9 +175,10 @@
       "filter": [
         "all",
         [
-          "==",
+          "in",
           "class",
-          "pitch"
+          "pitch",
+          "track"
         ]
       ],
       "paint": {
