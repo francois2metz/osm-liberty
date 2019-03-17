@@ -4077,6 +4077,18 @@
         "text-halo-color": "rgba(255,255,255,0.7)",
         "text-halo-width": 1
       }
+    },
+    {
+      "id": "tree",
+      "type": "circle",
+      "source": "openmaptiles",
+      "source-layer": "tree",
+      "minzoom": 17,
+      "maxzoom": 24,
+      "layout": {},
+      "paint": {
+        "circle-color": "rgba(19, 130, 34, 0.48)"
+      }
     }
   ]
 }
